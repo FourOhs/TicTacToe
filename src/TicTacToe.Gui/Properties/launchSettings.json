@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Debug TicTacToe (GUI)": {
+      "commandName": "Project",
+      "workingDirectory": "${projectDir}",
+      "launchBrowser": false
+    }
+  }
+}

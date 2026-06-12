@@ -1,0 +1,12 @@
+/Users/jeffdavidson/Development/TicTacToe/TicTacToe/src/TicTacToe.Core/bin/Debug/net10.0/TicTacToe.Core.deps.json
+/Users/jeffdavidson/Development/TicTacToe/TicTacToe/src/TicTacToe.Core/bin/Debug/net10.0/TicTacToe.Core.dll
+/Users/jeffdavidson/Development/TicTacToe/TicTacToe/src/TicTacToe.Core/bin/Debug/net10.0/TicTacToe.Core.pdb
+/Users/jeffdavidson/Development/TicTacToe/TicTacToe/src/TicTacToe.Core/obj/Debug/net10.0/TicTacToe.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeffdavidson/Development/TicTacToe/TicTacToe/src/TicTacToe.Core/obj/Debug/net10.0/TicTacToe.Core.AssemblyInfoInputs.cache
+/Users/jeffdavidson/Development/TicTacToe/TicTacToe/src/TicTacToe.Core/obj/Debug/net10.0/TicTacToe.Core.AssemblyInfo.cs
+/Users/jeffdavidson/Development/TicTacToe/TicTacToe/src/TicTacToe.Core/obj/Debug/net10.0/TicTacToe.Core.csproj.CoreCompileInputs.cache
+/Users/jeffdavidson/Development/TicTacToe/TicTacToe/src/TicTacToe.Core/obj/Debug/net10.0/TicTacToe.Core.sourcelink.json
+/Users/jeffdavidson/Development/TicTacToe/TicTacToe/src/TicTacToe.Core/obj/Debug/net10.0/TicTacToe.Core.dll
+/Users/jeffdavidson/Development/TicTacToe/TicTacToe/src/TicTacToe.Core/obj/Debug/net10.0/refint/TicTacToe.Core.dll
+/Users/jeffdavidson/Development/TicTacToe/TicTacToe/src/TicTacToe.Core/obj/Debug/net10.0/TicTacToe.Core.pdb
+/Users/jeffdavidson/Development/TicTacToe/TicTacToe/src/TicTacToe.Core/obj/Debug/net10.0/ref/TicTacToe.Core.dll

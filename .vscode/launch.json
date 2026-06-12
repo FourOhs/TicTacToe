@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug TicTacToe GUI",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/TicTacToe.Gui/bin/Debug/net10.0/TicTacToe.Gui.dll",
+      "cwd": "${workspaceFolder}/src/TicTacToe.Gui",
+      "preLaunchTask": "build TicTacToe GUI"
+    }
+  ]
+}

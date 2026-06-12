@@ -1,0 +1,29 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="420" d:DesignHeight="520"
+        x:Class="TicTacToe.Gui.MainWindow"
+        Width="420" Height="520"
+        WindowStartupLocation="CenterScreen"
+        Title="TicTacToe">
+    <StackPanel Margin="24" Spacing="18">
+        <TextBlock Text="Tic-Tac-Toe" FontSize="28" FontWeight="SemiBold" />
+        <TextBlock Text="You are X. The computer plays O." FontSize="14" Foreground="Gray" TextWrapping="Wrap" />
+        <TextBlock x:Name="StatusText" Text="Your turn." FontSize="16" FontWeight="Medium" />
+
+        <Grid ColumnDefinitions="*,*,*" RowDefinitions="*,*,*" Height="300">
+            <Button x:Name="Cell0" Grid.Row="0" Grid.Column="0" Tag="0" Click="OnCellClick" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="36" Margin="4" />
+            <Button x:Name="Cell1" Grid.Row="0" Grid.Column="1" Tag="1" Click="OnCellClick" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="36" Margin="4" />
+            <Button x:Name="Cell2" Grid.Row="0" Grid.Column="2" Tag="2" Click="OnCellClick" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="36" Margin="4" />
+            <Button x:Name="Cell3" Grid.Row="1" Grid.Column="0" Tag="3" Click="OnCellClick" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="36" Margin="4" />
+            <Button x:Name="Cell4" Grid.Row="1" Grid.Column="1" Tag="4" Click="OnCellClick" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="36" Margin="4" />
+            <Button x:Name="Cell5" Grid.Row="1" Grid.Column="2" Tag="5" Click="OnCellClick" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="36" Margin="4" />
+            <Button x:Name="Cell6" Grid.Row="2" Grid.Column="0" Tag="6" Click="OnCellClick" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="36" Margin="4" />
+            <Button x:Name="Cell7" Grid.Row="2" Grid.Column="1" Tag="7" Click="OnCellClick" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="36" Margin="4" />
+            <Button x:Name="Cell8" Grid.Row="2" Grid.Column="2" Tag="8" Click="OnCellClick" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="36" Margin="4" />
+        </Grid>
+
+        <Button Content="New Game" HorizontalAlignment="Center" Click="OnNewGameClick" />
+    </StackPanel>
+</Window>
